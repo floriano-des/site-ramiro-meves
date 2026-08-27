@@ -1,1 +1,22 @@
+# Ferramentas locais
 .claude/
+.codex/
+.vscode/
+.idea/
+
+# Sistema operacional e arquivos temporários
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# Dependências e saídas de ferramentas futuras
+node_modules/
+.cache/
+.parcel-cache/
+
+# Materiais-fonte da campanha (2,5 GB; não publicar no GitHub)
+materiais/*
+!materiais/README.md
