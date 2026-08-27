@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Capa social — Ramiro Meves 27777</title>
+  <style>
+    @font-face {
+      font-family: 'Archivo';
+      src: url('../fonts/archivo-800-900-latin.woff2') format('woff2');
+      font-weight: 800 900;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Poppins';
+      src: url('../fonts/poppins-700-latin.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      width: 1200px;
+      height: 630px;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    body {
+      color: #FFFDF1;
+      background: #0788AF;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+      position: relative;
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #0788AF;
+      isolation: isolate;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background-image: url('../images/padrao-baloes.svg');
+      background-size: 640px auto;
+      filter: brightness(.8);
+      opacity: .34;
+    }
+
+    .copy {
+      position: absolute;
+      z-index: 3;
+      top: 56px;
+      left: 64px;
+      width: 650px;
+    }
+
+    .kicker {
+      width: fit-content;
+      margin: 0 0 20px;
+      padding: 8px 14px;
+      background: #1E3038;
+      border-radius: 999px;
+      font-size: 15px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 650px;
+      margin: 0;
+      font-family: 'Archivo', sans-serif;
+      font-size: 77px;
+      font-weight: 900;
+      letter-spacing: -.045em;
+      line-height: .91;
+      text-transform: uppercase;
+    }
+
+    .lede {
+      max-width: 575px;
+      margin: 22px 0 0;
+      font-size: 20px;
+      line-height: 1.42;
+    }
+
+    .date {
+      position: absolute;
+      z-index: 4;
+      bottom: 54px;
+      left: 64px;
+      margin: 0;
+      padding: 10px 16px;
+      background: #1E3038;
+      border-left: 6px solid #EC671C;
+      font-size: 17px;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+
+    .photo {
+      position: absolute;
+      z-index: 1;
+      right: -40px;
+      bottom: -265px;
+      width: 640px;
+      max-width: none;
+    }
+
+    .lockup {
+      position: absolute;
+      z-index: 4;
+      right: 22px;
+      bottom: 42px;
+      width: 390px;
+    }
+
+    .legal {
+      position: absolute;
+      z-index: 5;
+      right: 22px;
+      bottom: 14px;
+      margin: 0;
+      color: #FFFDF1;
+      font-size: 11px;
+      letter-spacing: .04em;
+    }
+  </style>
+</head>
+<body>
+  <main class="card" aria-label="Capa social da campanha de Ramiro Meves">
+    <div class="copy">
+      <p class="kicker">Amigo de sempre</p>
+      <h1>Uma vida<br>tranquila<br>não é favor.<br>É direito.</h1>
+      <p class="lede">Experiência para cuidar das pessoas e cobrar até a entrega sair do papel.</p>
+    </div>
+
+    <p class="date">04 de outubro</p>
+    <img class="photo" src="../images/ramiro-recorte-1200.webp" alt="">
+    <img class="lockup" src="../icons/logo-vertical-02.svg" alt="Ramiro Meves, Deputado Estadual, 27777">
+    <p class="legal">Democracia Cristã — DC · CNPJ 68.610.259/0001-98</p>
+  </main>
+</body>
+</html>
