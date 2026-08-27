@@ -62,4 +62,30 @@ Comparações lado a lado usadas na inspeção final:
 
 Nenhum problema P0, P1 ou P2 permanece aberto na primeira entrega.
 
+## Atualização — faixa da biografia sobre a foto
+
+- Fonte visual: `docs/qa-reference-about-overlay.png` (636 × 439 px), captura fornecida pelo usuário.
+- Implementação desktop: `docs/qa-about-overlay-desktop-full.jpg` (1425 × 890 px úteis), viewport CSS 1440 × 900, `devicePixelRatio` 1.
+- Implementação mobile: `docs/qa-about-overlay-mobile-full.jpg` (376 × 813 px úteis), viewport CSS 390 × 844, `devicePixelRatio` 1.
+- Evidência focada desktop: `docs/qa-about-overlay-desktop.jpg` (476 × 595 px).
+- Evidência focada mobile: `docs/qa-about-overlay-mobile.jpg` (344 × 430 px).
+- Comparação normalizada: `docs/qa-comparison-about-overlay.jpg`; referência e implementação foram igualadas a 636 × 439 px e colocadas lado a lado.
+- Estado comparado: seção “Quem é”, faixa de nascimento visível sobre o limite inferior do retrato.
+
+### Superfícies verificadas
+
+- Tipografia: Archivo/Poppins, pesos, tamanhos e entrelinha preservados.
+- Espaçamento e ritmo: a faixa passou a ficar totalmente dentro da caixa da foto, alinhada à direita e com o recuo lateral existente.
+- Cores: ardósia, creme e detalhe laranja continuam usando os tokens oficiais.
+- Imagem: o retrato original foi preservado sem recorte ou compressão adicional no site.
+- Conteúdo: “Nasceu no Rudge Ramos. Construiu sua vida na Paulicéia.” permaneceu inalterado.
+
+### Histórico desta comparação
+
+1. Alvo: retirar a faixa do fluxo abaixo da foto e posicioná-la sobre a imagem.
+2. Correção: a faixa passou a usar posicionamento absoluto no rodapé do retrato, com ajuste responsivo de largura.
+3. Pós-correção: comparação focada confirma a sobreposição em desktop; captura mobile confirma que o texto continua íntegro e sem overflow horizontal.
+
+Não há diferenças P0, P1 ou P2 abertas nesta atualização. Uma comparação focada foi suficiente porque a solicitação não altera o restante da seção, tipografia, imagem, conteúdo ou interações.
+
 final result: passed
