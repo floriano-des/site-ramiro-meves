@@ -51,7 +51,7 @@
   --blue: #0788AF;
   --slate: #1E3038;
   --cream: #FFFDF1;
-  --white: #FFFFFF;
+  --white: #FFFDF1;
   --shell: 1240px;
   --header-height: 76px;
   --shadow-hard: 8px 8px 0 rgba(30, 48, 56, .12);
@@ -171,7 +171,12 @@ h3 {
   text-transform: uppercase;
 }
 
-.eyebrow--orange { color: var(--orange); }
+.eyebrow--orange {
+  width: fit-content;
+  padding-left: 10px;
+  color: var(--slate);
+  border-left: 4px solid var(--orange);
+}
 .eyebrow--blue { color: #25AED3; }
 .eyebrow--dark { color: var(--slate); }
 .eyebrow--light { color: var(--cream); }
@@ -208,8 +213,8 @@ h3 {
 
 .button--outline-light {
   color: var(--cream);
-  background: transparent;
-  border-color: var(--cream);
+  background: var(--slate);
+  border-color: var(--slate);
 }
 
 .button--outline-light:hover,
@@ -361,7 +366,8 @@ h3 {
   max-width: 590px;
   margin: 28px 0 0;
   color: var(--cream);
-  font-size: clamp(18px, 1.7vw, 22px);
+  font-size: clamp(19px, 1.7vw, 22px);
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -376,8 +382,11 @@ h3 {
   display: flex;
   gap: 32px;
   margin-top: 40px;
-  padding-top: 24px;
-  border-top: 1px solid rgba(255, 253, 241, .38);
+  width: fit-content;
+  padding: 18px 22px;
+  background: var(--slate);
+  border-left: 5px solid var(--orange);
+  border-radius: 14px 14px 0 14px;
 }
 
 .campaign-hero__proof p { margin: 0; }
@@ -391,7 +400,7 @@ h3 {
 }
 
 .campaign-hero__proof span {
-  color: rgba(255, 253, 241, .82);
+  color: var(--cream);
   font-size: 13px;
 }
 
@@ -527,7 +536,8 @@ h3 {
   margin: -28px 0 0 36px;
   padding: 18px 22px;
   color: var(--cream);
-  background: var(--orange);
+  background: var(--slate);
+  border-left: 6px solid var(--orange);
   border-radius: 16px 16px 0 16px;
   line-height: 1.35;
 }
@@ -604,7 +614,7 @@ h3 {
   color: var(--cream);
   background: var(--orange);
   border-radius: 12px 12px 0 12px;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 800;
 }
 
@@ -666,8 +676,9 @@ h3 {
   width: fit-content;
   margin-bottom: 20px;
   padding: 6px 11px;
-  color: var(--cream);
-  background: var(--blue);
+  color: var(--slate);
+  background: var(--cream);
+  border: 2px solid var(--blue);
   border-radius: 999px;
   font-size: 13px;
   font-weight: 800;
@@ -725,6 +736,14 @@ h3 {
   font-size: 20px;
 }
 
+.manifesto__copy .manifesto__contrast {
+  margin-block: 34px;
+  padding-left: 22px;
+  color: var(--cream);
+  border-left: 6px solid var(--blue);
+  font-weight: 700;
+}
+
 .manifesto__copy .manifesto__closing {
   margin-top: 40px;
   padding: 24px 26px;
@@ -757,6 +776,15 @@ h3 {
 .vote__content > p:not(.eyebrow) {
   margin-bottom: 28px;
   font-size: 21px;
+  font-weight: 700;
+}
+
+.vote .eyebrow--light {
+  width: fit-content;
+  padding: 6px 10px;
+  color: var(--cream);
+  background: var(--slate);
+  border-radius: 999px;
 }
 
 .vote__signature {
