@@ -15,5 +15,9 @@ Os arquivos brutos e editáveis permanecem em `materiais/originais/` e não entr
 - número 27777 em laranja e ardósia, em SVG;
 - padrão de balões oficial em SVG;
 - foto principal em WebP nos tamanhos 800 × 1200 e 1200 × 1800.
+- recorte transparente oficial do candidato em WebP, nos tamanhos 800 e 1200;
+- prévia social do site em 1200 × 630;
+- fontes locais Archivo e Poppins, acompanhadas das licenças OFL;
+- ícones de navegação e redes sociais usados pela one-page.
 
 Os arquivos SVG mantêm as variações oficiais para que a combinação correta seja escolhida conforme o fundo de cada seção.

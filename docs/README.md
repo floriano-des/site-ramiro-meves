@@ -7,3 +7,4 @@
 - [`AUDITORIA-SITE-ATUAL.md`](AUDITORIA-SITE-ATUAL.md): situação técnica da versão que está no ar.
 - [`CHECKLIST.md`](CHECKLIST.md): próximos passos e pendências.
 - [`PENDENCIAS-CAIO.md`](PENDENCIAS-CAIO.md): integrações técnicas fora da primeira entrega.
+- [`PLANEJAMENTO-SITE.md`](PLANEJAMENTO-SITE.md): tudo que será construído até o fim e a divisão por fases.

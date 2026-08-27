@@ -4,9 +4,9 @@ Site institucional da campanha de Ramiro Meves para Deputado Estadual por São P
 
 ## Situação atual
 
-- A versão publicada é um site estático em HTML e CSS.
-- A identidade visual e o conteúdo da nova versão já foram recebidos.
-- A primeira entrega foi confirmada como uma one-page institucional, sem backend de leads e sem WhatsApp Cloud API.
+- A versão publicada permanece preservada na `main`.
+- A nova home one-page está construída na branch de aprovação, com HTML, CSS e JavaScript leves.
+- A primeira entrega não possui backend de leads nem WhatsApp Cloud API.
 - As páginas restantes serão produzidas depois da aprovação visual; as integrações serão encaminhadas ao responsável técnico.
 - A preparação acontece na branch `codex/preparacao-nova-versao`.
 
@@ -18,8 +18,9 @@ Site institucional da campanha de Ramiro Meves para Deputado Estadual por São P
 ├── assets/             arquivos finais, leves e usados pelo site
 ├── docs/               escopo, inventário e documentação técnica
 ├── materiais/          fontes originais locais, ignoradas pelo Git
-├── index.html           site atualmente publicado
-└── style.css            estilos do site atualmente publicado
+├── index.html           estrutura da nova one-page
+├── script.js            menu, navegação e microinterações
+└── style.css            identidade visual e responsividade
 ```
 
 Os 2,5 GB de PSDs, fotos brutas, PDFs e demais fontes ficam em `materiais/originais/`. Somente os arquivos escolhidos e otimizados para produção devem ser copiados para `assets/`.
