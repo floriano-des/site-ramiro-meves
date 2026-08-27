@@ -1,4 +1,4 @@
-# Escopo em confirmação
+# Escopo da primeira entrega
 
 Atualizado em 27/08/2026.
 
@@ -10,7 +10,7 @@ Atualizado em 27/08/2026.
 - Site responsivo, rápido, acessível e com informações legais obrigatórias.
 - Publicação no domínio já existente por meio do repositório atual.
 
-## Cenário recomendado: one-page institucional
+## Primeira entrega confirmada: one-page institucional
 
 Uma página com:
 
@@ -23,9 +23,9 @@ Uma página com:
 7. chamada final, WhatsApp e redes sociais;
 8. rodapé legal e política de privacidade mínima.
 
-Não exige banco de dados, CRM, painel administrativo ou agente de IA.
+Nesta etapa não serão implementados banco de dados, CRM, painel administrativo, agente de IA, backend de leads ou WhatsApp Cloud API.
 
-## Cenário ampliado do briefing
+## Etapas posteriores do briefing
 
 Além da landing page, prevê:
 
@@ -38,6 +38,9 @@ Além da landing page, prevê:
 
 O briefing não determina um CRM específico nem a construção de um agente de IA para o site.
 
-## Decisão pendente
+## Sequência aprovada
 
-A equipe precisa confirmar se a entrega seguirá o cenário one-page ou o cenário ampliado. Até lá, nenhuma dependência de backend ou arquitetura complexa será incorporada.
+1. Construir a one-page completa e responsiva.
+2. Apresentar para aprovação visual e de conteúdo.
+3. Produzir as páginas restantes após a aprovação da linguagem visual.
+4. Encaminhar backend, captação de leads e WhatsApp Cloud API para avaliação do Caio.

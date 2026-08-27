@@ -6,8 +6,9 @@ Site institucional da campanha de Ramiro Meves para Deputado Estadual por São P
 
 - A versão publicada é um site estático em HTML e CSS.
 - A identidade visual e o conteúdo da nova versão já foram recebidos.
-- O escopo final ainda está em confirmação: one-page institucional ou estrutura ampliada descrita no briefing.
-- Enquanto essa definição não chega, a preparação acontece na branch `codex/preparacao-nova-versao`.
+- A primeira entrega foi confirmada como uma one-page institucional, sem backend de leads e sem WhatsApp Cloud API.
+- As páginas restantes serão produzidas depois da aprovação visual; as integrações serão encaminhadas ao responsável técnico.
+- A preparação acontece na branch `codex/preparacao-nova-versao`.
 
 ## Estrutura
 

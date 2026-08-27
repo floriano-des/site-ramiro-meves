@@ -13,9 +13,9 @@
 
 ## Aguardando definição da equipe
 
-- [ ] Confirmar one-page institucional ou escopo ampliado.
-- [ ] Confirmar se haverá captação de leads.
-- [ ] Confirmar se haverá WhatsApp Cloud API ou link direto.
+- [x] Confirmar a one-page como primeira entrega.
+- [x] Retirar captação de leads e backend da primeira entrega.
+- [x] Retirar WhatsApp Cloud API da primeira entrega.
 - [ ] Confirmar quais redes sociais serão publicadas.
 - [ ] Confirmar número e destino oficial do WhatsApp.
 
@@ -27,3 +27,12 @@
 - [ ] Validar conteúdo, acessibilidade, responsividade e performance.
 - [ ] Abrir pull request para revisão.
 - [ ] Integrar e acompanhar a publicação.
+
+## Encaminhar ao Caio
+
+- [ ] Backend e armazenamento dos leads.
+- [ ] Registro e auditoria dos consentimentos.
+- [ ] Página e fluxo de descadastramento.
+- [ ] WhatsApp Cloud API, número dedicado e credenciais da Meta.
+- [ ] Ferramenta de disparo e operação das mensagens.
+- [ ] Provedor de e-mail transacional, se mantido no escopo final.
