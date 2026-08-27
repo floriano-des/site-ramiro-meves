@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 249.48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ec671c;
+      }
+
+      .cls-2 {
+        fill: #fffdf1;
+        font-family: Gunterz-Bold, Gunterz;
+        font-size: 141.78px;
+        font-weight: 700;
+        letter-spacing: .01em;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M64.27,38.33h466.74c20.49,0,37.08,15.69,37.09,35.06v69.71c0,19.36-16.6,35.05-37.09,35.06h-5.56v1.34c0,8.27,0,16.55,0,24.82,0,2.27-.94,4.06-3.15,5.06-2.2.99-4.27.66-6.14-.82-1.58-1.25-3.17-2.5-4.75-3.75-11.18-8.83-22.36-17.66-33.57-26.45l-.45-.2H64.27c-20.49,0-37.08-15.69-37.09-35.06v-69.71c0-19.36,16.6-35.05,37.09-35.06Z"/>
+  <text class="cls-2" transform="translate(33.7 161.18)"><tspan x="0" y="0">27777</tspan></text>
+</svg>

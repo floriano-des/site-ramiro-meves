@@ -9,6 +9,7 @@
 - [x] Impedir o envio dos 2,5 GB de materiais brutos ao GitHub.
 - [x] Documentar escopo, fontes, inventário, deploy e situação atual.
 - [x] Preparar estrutura de assets finais.
+- [x] Preparar logos, número, padrão e foto principal em formatos leves para web.
 
 ## Aguardando definição da equipe
 
@@ -20,7 +21,7 @@
 
 ## Após a decisão
 
-- [ ] Selecionar e otimizar os assets finais.
+- [ ] Selecionar e otimizar os demais assets exigidos pelo escopo final.
 - [ ] Fechar a arquitetura de conteúdo.
 - [ ] Implementar a nova identidade.
 - [ ] Validar conteúdo, acessibilidade, responsividade e performance.

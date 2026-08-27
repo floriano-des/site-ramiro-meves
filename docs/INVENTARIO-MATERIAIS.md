@@ -28,3 +28,5 @@ Os originais ficam em `materiais/originais/`, fora do Git. Antes da implementaç
 - o padrão de fundo oficial;
 - fontes licenciadas convertidas para WOFF2;
 - somente vídeos que tenham função definida no escopo final.
+
+Já foram preparadas cópias leves da foto principal, das variações de logo, do número e do padrão de fundo. As fontes aguardam conferência de licença para uso web.
