@@ -504,6 +504,311 @@ h3 {
   border-top: 4px solid var(--blue);
 }
 
+.capture {
+  position: relative;
+  overflow: hidden;
+  color: var(--cream);
+  background: var(--blue);
+  isolation: isolate;
+}
+
+.capture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: url('assets/images/padrao-baloes.svg');
+  background-size: 720px auto;
+  filter: brightness(.75);
+  opacity: .22;
+}
+
+.capture__grid {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(520px, 1.2fr);
+  gap: 78px;
+  align-items: start;
+}
+
+.capture__intro {
+  position: sticky;
+  top: calc(var(--header-height) + 42px);
+}
+
+.capture__intro h2 {
+  color: var(--cream);
+  font-size: clamp(42px, 5vw, 68px);
+}
+
+.capture__intro > p:last-of-type {
+  max-width: 48ch;
+  color: var(--cream);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.capture__benefits {
+  display: grid;
+  gap: 12px;
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.capture__benefits li {
+  position: relative;
+  padding-left: 30px;
+  color: var(--cream);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.capture__benefits li::before {
+  content: '';
+  position: absolute;
+  top: .55em;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  background: var(--orange);
+  border-radius: 4px 4px 0 4px;
+}
+
+.capture__card {
+  padding: 42px;
+  color: var(--slate);
+  background: var(--cream);
+  border-radius: 28px 28px 0 28px;
+  box-shadow: 10px 10px 0 rgba(30, 48, 56, .2);
+}
+
+.lead-form {
+  position: relative;
+}
+
+.lead-form fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.lead-form legend,
+.lead-form__success h3 {
+  margin: 0 0 10px;
+  color: var(--slate);
+  font-family: 'Archivo', sans-serif;
+  font-size: clamp(28px, 3vw, 38px);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -.04em;
+}
+
+.lead-form__step > p {
+  max-width: 58ch;
+  margin-bottom: 28px;
+  font-size: 15px;
+}
+
+.lead-form__progress {
+  display: grid;
+  grid-template-columns: auto minmax(90px, 1fr);
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 30px;
+  color: var(--slate);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.lead-form__progress-bar {
+  display: block;
+  height: 6px;
+  overflow: hidden;
+  background: rgba(30, 48, 56, .14);
+  border-radius: 999px;
+}
+
+.lead-form__progress-bar i {
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: var(--orange);
+  border-radius: inherit;
+  transition: width .28s ease;
+}
+
+.lead-form__fields {
+  display: grid;
+  gap: 18px;
+}
+
+.lead-form__fields--two-columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.form-field {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.form-field > span {
+  color: var(--slate);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.form-field input {
+  width: 100%;
+  min-height: 54px;
+  padding: 12px 14px;
+  color: var(--slate);
+  background: #fff;
+  border: 2px solid rgba(30, 48, 56, .25);
+  border-radius: 12px 12px 0 12px;
+  font: inherit;
+  font-size: 16px;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+
+.form-field input::placeholder { color: rgba(30, 48, 56, .56); }
+
+.form-field input:hover { border-color: rgba(30, 48, 56, .5); }
+
+.form-field input:focus {
+  outline: 0;
+  border-color: var(--orange);
+  box-shadow: 0 3px 0 var(--orange);
+}
+
+.form-field input[aria-invalid="true"] {
+  border-color: #B42318;
+}
+
+.form-field small {
+  color: rgba(30, 48, 56, .72);
+  font-size: 12px;
+}
+
+.consent-field {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  margin: 6px 0 26px;
+  cursor: pointer;
+}
+
+.consent-field input {
+  width: 21px;
+  height: 21px;
+  margin: 3px 0 0;
+  accent-color: var(--orange);
+}
+
+.consent-field span {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.consent-field a {
+  color: var(--slate);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: var(--orange);
+  text-underline-offset: 3px;
+}
+
+.lead-form__primary {
+  width: 100%;
+  color: var(--cream);
+  background: var(--slate);
+  border-color: var(--slate);
+  cursor: pointer;
+}
+
+.lead-form__primary:hover,
+.lead-form__primary:focus-visible {
+  color: var(--slate);
+  background: var(--orange);
+  border-color: var(--orange);
+}
+
+.lead-form__primary:disabled {
+  cursor: wait;
+  opacity: .62;
+  transform: none;
+}
+
+.lead-form__actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.lead-form__skip {
+  min-height: 48px;
+  padding: 8px 16px;
+  color: var(--slate);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--orange);
+  text-underline-offset: 4px;
+}
+
+.lead-form__status {
+  min-height: 24px;
+  margin: 14px 0 0;
+  color: #8A241B;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.lead-form__status.is-info { color: var(--slate); }
+
+.lead-form__success {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.lead-form__success > span {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 22px;
+  place-items: center;
+  color: var(--cream);
+  background: #176B52;
+  border-radius: 18px 18px 0 18px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.lead-form__success p {
+  max-width: 45ch;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.lead-form__honeypot {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 .about { background: var(--cream); }
 
 .about__grid {
@@ -1027,6 +1332,7 @@ h3 {
   .campaign-hero__proof { gap: 18px; }
 
   .rights__grid,
+  .capture__grid,
   .about__grid,
   .manifesto__grid,
   .vote__grid,
@@ -1034,6 +1340,8 @@ h3 {
     grid-template-columns: 1fr;
     gap: 56px;
   }
+
+  .capture__intro { position: static; }
 
   .about__portrait { width: min(100%, 560px); }
   .manifesto__statement h2 { position: static; }
@@ -1100,6 +1408,12 @@ h3 {
   .rights__grid { gap: 42px; }
 
   .rights__equation { padding: 28px 24px; }
+
+  .capture__grid { gap: 42px; }
+
+  .capture__card { padding: 30px 24px; }
+
+  .lead-form__fields--two-columns { grid-template-columns: 1fr; }
 
   .about__grid { gap: 64px; }
 

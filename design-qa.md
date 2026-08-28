@@ -1,7 +1,7 @@
 # Design QA — home one-page
 
-Data: 27/08/2026
-Estado validado: primeira entrega estática, sem formulário ou integrações de backend.
+Data: 28/08/2026
+Estado atual: home one-page com formulário em duas etapas conectado ao Google Sheets por Apps Script.
 
 ## Fontes visuais
 

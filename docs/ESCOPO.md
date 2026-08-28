@@ -1,6 +1,6 @@
 # Escopo da primeira entrega
 
-Atualizado em 27/08/2026.
+Atualizado em 28/08/2026.
 
 ## Confirmado
 
@@ -22,14 +22,14 @@ Uma página com:
 6. manifesto resumido;
 7. chamada final, WhatsApp e redes sociais;
 8. rodapé legal e política de privacidade mínima.
+9. formulário de captação em duas etapas, com envio provisório ao Google Sheets.
 
-Nesta etapa não serão implementados banco de dados, CRM, painel administrativo, agente de IA, backend de leads ou WhatsApp Cloud API.
+Nesta etapa não serão implementados CRM, painel administrativo, agente de IA ou WhatsApp Cloud API. O destino provisório dos leads será uma planilha do Google Sheets conectada por Apps Script.
 
 ## Etapas posteriores do briefing
 
 Além da landing page, prevê:
 
-- formulário de captação de leads em duas etapas;
 - backend com registro de consentimentos e descadastramento;
 - WhatsApp pela Cloud API oficial;
 - nove subpáginas;
@@ -43,4 +43,4 @@ O briefing não determina um CRM específico nem a construção de um agente de 
 1. Construir a one-page completa e responsiva.
 2. Apresentar para aprovação visual e de conteúdo.
 3. Produzir as páginas restantes após a aprovação da linguagem visual.
-4. Encaminhar backend, captação de leads e WhatsApp Cloud API para avaliação do Caio.
+4. Conectar o formulário à planilha aprovada e encaminhar CRM e WhatsApp Cloud API para avaliação técnica posterior.

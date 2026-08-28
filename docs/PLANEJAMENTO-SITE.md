@@ -1,6 +1,6 @@
 # Planejamento do site
 
-Atualizado em 27/08/2026.
+Atualizado em 28/08/2026.
 
 ## O que será construído até o final
 
@@ -16,20 +16,19 @@ Atualizado em 27/08/2026.
 
 Isso corresponde à landing page e às nove subpáginas previstas no briefing.
 
-Depois da aprovação da home e da entrega da API pelo Caio, o frontend também poderá receber o formulário de apoio/captação e o fluxo visual de consentimento e descadastro. O site apenas enviará esses dados ao serviço técnico; ele não será um CRM.
+O formulário de apoio/captação em duas etapas já faz parte da home. A solução provisória aprovada envia os dados a uma planilha do Google Sheets por meio de um Web App do Apps Script. O site não será um CRM.
 
 O frontend inclui identidade oficial, conteúdo público, responsividade, acessibilidade, SEO, performance, navegação, microinterações, informações legais, validação e publicação após aprovação. Agente de IA não faz parte deste escopo.
 
-### Integrações sob responsabilidade do Caio
+### Integrações externas
 
-- backend e banco de leads;
-- registro dos consentimentos;
-- endpoint de descadastramento;
+- Google Sheets e Web App do Apps Script para a captação inicial;
+- endpoint de descadastramento, caso o fluxo deixe de ser manual;
 - CRM ou ferramenta de operação da base;
 - WhatsApp Cloud API, conta, número, templates e credenciais;
 - e-mail transacional, caso permaneça no escopo.
 
-O frontend poderá consumir essas integrações quando o Caio entregar endpoints, regras e credenciais por ambiente.
+O frontend poderá consumir as integrações futuras quando forem entregues endpoints, regras e credenciais por ambiente.
 
 ## Fases
 
@@ -54,8 +53,8 @@ O frontend poderá consumir essas integrações quando o Caio entregar endpoints
 - revisão final de desempenho, acessibilidade e requisitos legais;
 - publicação na infraestrutura existente.
 
-## Fora da primeira entrega
+## Limites atuais
 
-A primeira one-page não possui formulário, banco de dados, CRM, agente de IA nem WhatsApp Cloud API. O contato utiliza somente um link direto para o WhatsApp.
+A one-page possui formulário conectado ao Google Sheets, mas não possui CRM, agente de IA nem WhatsApp Cloud API. O contato direto continua utilizando um link para o WhatsApp.
 
 No projeto final, banco, CRM e automações de WhatsApp continuam fora deste repositório e serão apenas consumidos pelo site quando o Caio disponibilizar as integrações.

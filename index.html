@@ -49,7 +49,7 @@
         <a href="#trajetoria">História</a>
         <a href="#propostas">Propostas</a>
         <a href="#manifesto">Manifesto</a>
-        <a class="site-nav__cta" href="https://wa.me/5511926202727?text=Ol%C3%A1%2C%20quero%20conhecer%20mais%20as%20propostas%20do%20Ramiro%20Meves." target="_blank" rel="noopener">Fale com o Ramiro</a>
+        <a class="site-nav__cta" href="#cadastro">Cadastre-se</a>
       </nav>
 
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu" data-menu-toggle>
@@ -105,6 +105,97 @@
       </div>
     </section>
 
+    <section class="capture section" id="cadastro" aria-labelledby="capture-title">
+      <div class="section-shell capture__grid">
+        <div class="capture__intro" data-reveal>
+          <p class="eyebrow eyebrow--light">Faça parte</p>
+          <h2 id="capture-title">Receba nossas mensagens.</h2>
+          <p>Saiba o que estamos construindo, acompanhe as propostas e ajude a fazer acontecer.</p>
+          <ul class="capture__benefits" aria-label="Como usaremos seu cadastro">
+            <li>Informações da campanha diretamente para você</li>
+            <li>Convites para participar e compartilhar</li>
+            <li>Descadastro disponível a qualquer momento</li>
+          </ul>
+        </div>
+
+        <div class="capture__card" data-reveal>
+          <form class="lead-form" data-lead-form data-endpoint="https://script.google.com/macros/s/AKfycbztquRSovj28Ns9cS6I2O0lV1UQveqxhD6NbD1fDY5Qwk7oX778Ifkif9H-hy__13FrRA/exec" novalidate>
+            <input type="hidden" name="lead_id" data-lead-id>
+            <input type="hidden" name="consent_version" value="ramiro-site-v1-2026-08-28">
+            <div class="lead-form__honeypot" aria-hidden="true">
+              <label for="website">Não preencha este campo</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="lead-form__progress" aria-label="Progresso do cadastro">
+              <span data-form-progress>Etapa 1 de 2</span>
+              <span class="lead-form__progress-bar" aria-hidden="true"><i data-form-progress-bar></i></span>
+            </div>
+
+            <fieldset class="lead-form__step" data-form-step="1">
+              <legend>Primeiro, conte quem é você</legend>
+              <p>Seu nome e WhatsApp já garantem o cadastro. Os demais dados são opcionais.</p>
+
+              <div class="lead-form__fields">
+                <label class="form-field" for="lead-name">
+                  <span>Nome</span>
+                  <input id="lead-name" name="nome" type="text" autocomplete="name" maxlength="100" required placeholder="Como podemos chamar você?">
+                </label>
+
+                <label class="form-field" for="lead-whatsapp">
+                  <span>WhatsApp</span>
+                  <input id="lead-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="16" required placeholder="(11) 99999-9999" aria-describedby="lead-whatsapp-help">
+                  <small id="lead-whatsapp-help">Digite o DDD e o número.</small>
+                </label>
+              </div>
+
+              <label class="consent-field" for="lead-consent">
+                <input id="lead-consent" name="consentimento" type="checkbox" value="sim" required>
+                <span>Autorizo a campanha de Ramiro Meves a usar estes dados para me enviar informações. Li o aviso de <a href="#privacidade">privacidade</a> e sei que posso pedir o descadastro a qualquer momento.</span>
+              </label>
+
+              <button class="button lead-form__primary" type="submit" data-form-submit>Quero receber</button>
+            </fieldset>
+
+            <fieldset class="lead-form__step" data-form-step="2" hidden>
+              <legend>Agora, ajude a gente a conhecer seu bairro</legend>
+              <p>Esta etapa é opcional e ajuda a campanha a organizar ações perto de você.</p>
+
+              <div class="lead-form__fields lead-form__fields--two-columns">
+                <label class="form-field" for="lead-neighborhood">
+                  <span>Bairro</span>
+                  <input id="lead-neighborhood" name="bairro" type="text" autocomplete="address-level3" maxlength="100" placeholder="Seu bairro">
+                </label>
+
+                <label class="form-field" for="lead-city">
+                  <span>Cidade</span>
+                  <input id="lead-city" name="cidade" type="text" autocomplete="address-level2" maxlength="100" placeholder="Sua cidade">
+                </label>
+              </div>
+
+              <label class="form-field" for="lead-email">
+                <span>E-mail</span>
+                <input id="lead-email" name="email" type="email" autocomplete="email" maxlength="160" placeholder="voce@exemplo.com">
+              </label>
+
+              <div class="lead-form__actions">
+                <button class="button lead-form__primary" type="submit" data-form-submit>Concluir cadastro</button>
+                <button class="lead-form__skip" type="button" data-form-skip>Pular esta etapa</button>
+              </div>
+            </fieldset>
+
+            <div class="lead-form__success" data-form-success hidden tabindex="-1">
+              <span aria-hidden="true">✓</span>
+              <h3>Cadastro concluído.</h3>
+              <p>Obrigado por participar. Em breve você receberá novidades da campanha.</p>
+            </div>
+
+            <p class="lead-form__status" data-form-status aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <section class="about section" id="sobre" aria-labelledby="about-title">
       <div class="section-shell about__grid">
         <div class="about__portrait" data-reveal>
@@ -139,7 +230,7 @@
             <span>01</span>
             <div>
               <p class="history__period">1983–1996</p>
-              <h3>Quatro mandatos de vereador</h3>
+              <h3>Vereador por quatro mandatos</h3>
               <p>Eleito pela primeira vez pela Paulicéia, também presidiu a Câmara Municipal de São Bernardo em 1985 e 1986.</p>
             </div>
           </li>
@@ -302,7 +393,8 @@
       <p>© <span data-year>2026</span> Ramiro Meves. Todos os direitos reservados.</p>
       <details id="privacidade">
         <summary>Privacidade e acessibilidade</summary>
-        <p>Esta página não possui formulário nem coleta direta de dados pessoais. Links de WhatsApp e redes sociais levam a serviços externos. O site foi desenvolvido para navegação por teclado, leitores de tela e ampliação de texto.</p>
+        <p>Ao preencher o formulário, você autoriza a campanha de Ramiro Meves a usar seu nome, WhatsApp e os dados opcionais informados para contato e organização de ações. O cadastro será armazenado em uma planilha de acesso restrito. Para corrigir seus dados ou pedir o descadastro, escreva para <a href="mailto:contato@ramiromeves.com.br">contato@ramiromeves.com.br</a>. Links de WhatsApp e redes sociais levam a serviços externos.</p>
+        <p>O site foi desenvolvido para navegação por teclado, leitores de tela e ampliação de texto.</p>
       </details>
     </div>
   </footer>
