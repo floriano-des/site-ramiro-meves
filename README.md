@@ -8,7 +8,9 @@ Site institucional da campanha de Ramiro Meves para Deputado Estadual por São P
 - A nova home one-page está construída na `main`, com HTML, CSS e JavaScript leves.
 - O formulário em duas etapas está conectado ao Google Sheets por um Web App do Apps Script.
 - A primeira entrega não possui CRM nem WhatsApp Cloud API.
-- As páginas restantes serão produzidas depois da aprovação visual; as integrações serão encaminhadas ao responsável técnico.
+- As páginas temáticas de Segurança, Saúde, Mulheres e Idosos seguem a linguagem visual aprovada da home e já estão construídas.
+- Um template não indexável de página de dobradinha está disponível em `dobradinha/`, com conteúdo fictício pronto para substituição.
+- As demais páginas serão produzidas conforme conteúdo e prioridade; as integrações serão encaminhadas ao responsável técnico.
 
 ## Estrutura
 

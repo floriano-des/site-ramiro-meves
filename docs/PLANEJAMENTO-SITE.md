@@ -7,7 +7,7 @@ Atualizado em 28/08/2026.
 ### Frontend sob responsabilidade deste projeto
 
 1. **Home one-page** — primeira entrega para aprovação da linguagem visual e do conteúdo.
-2. **Quatro páginas de propostas** — Segurança, Saúde, Mulheres e Idosos.
+2. **Quatro páginas de propostas** — Segurança, Saúde, Mulheres e Idosos. **Construídas.**
 3. **Biografia** — trajetória completa e realizações verificadas.
 4. **Plataforma** — resumo navegável e acesso ao PDF aprovado.
 5. **Política de privacidade** — texto legal ajustado às ferramentas realmente utilizadas.
@@ -43,7 +43,8 @@ O frontend poderá consumir as integrações futuras quando forem entregues endp
 ### Fase 2 — páginas restantes
 
 - reaproveitamento do sistema visual aprovado;
-- construção das nove rotas do briefing;
+- páginas de Segurança, Saúde, Mulheres e Idosos construídas;
+- construção das demais rotas do briefing;
 - revisão de conteúdo e conformidade de cada página.
 
 ### Fase 3 — integração e publicação
