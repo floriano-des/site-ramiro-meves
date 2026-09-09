@@ -32,7 +32,7 @@ Além da landing page, prevê:
 
 - backend com registro de consentimentos e descadastramento;
 - WhatsApp pela Cloud API oficial;
-- nove subpáginas;
+- onze subpáginas, considerando as páginas adicionais de Cristãos e São Bernardo;
 - fluxos adicionais de material e compartilhamento;
 - relatórios de conformidade, performance e protótipos de motion.
 

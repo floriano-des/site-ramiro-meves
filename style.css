@@ -1071,10 +1071,12 @@ h3 {
 }
 
 .topic-hero--women,
-.topic-hero--elderly { background: var(--slate); }
+.topic-hero--elderly,
+.topic-hero--faith { background: var(--slate); }
 
 .topic-hero--women .button--outline-light,
-.topic-hero--elderly .button--outline-light {
+.topic-hero--elderly .button--outline-light,
+.topic-hero--faith .button--outline-light {
   background: transparent;
   border-color: var(--cream);
 }
@@ -1082,7 +1084,9 @@ h3 {
 .topic-hero--women .button--outline-light:hover,
 .topic-hero--women .button--outline-light:focus-visible,
 .topic-hero--elderly .button--outline-light:hover,
-.topic-hero--elderly .button--outline-light:focus-visible {
+.topic-hero--elderly .button--outline-light:focus-visible,
+.topic-hero--faith .button--outline-light:hover,
+.topic-hero--faith .button--outline-light:focus-visible {
   color: var(--slate);
   background: var(--cream);
 }
@@ -1152,7 +1156,8 @@ h3 {
 }
 
 .topic-hero--women .topic-hero__featured,
-.topic-hero--elderly .topic-hero__featured {
+.topic-hero--elderly .topic-hero__featured,
+.topic-hero--faith .topic-hero__featured {
   box-shadow: 10px 10px 0 var(--orange);
 }
 
@@ -1189,6 +1194,51 @@ h3 {
 .topic-hero__featured p:last-child {
   margin-bottom: 0;
   font-size: 16px;
+}
+
+.topic-photo {
+  position: relative;
+  z-index: 2;
+  width: min(100% - 48px, var(--shell));
+  margin: -54px auto 0;
+}
+
+.topic-photo__frame {
+  position: relative;
+  min-height: 320px;
+  margin: 0;
+  overflow: hidden;
+  background: var(--slate);
+  border: 8px solid var(--cream);
+  border-radius: 30px 30px 0 30px;
+  box-shadow: 0 24px 60px rgba(30, 48, 56, .22);
+}
+
+.topic-photo img {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 42vw, 540px);
+  object-fit: cover;
+}
+
+.topic-photo figcaption {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  max-width: calc(100% - 36px);
+  padding: 8px 12px;
+  color: var(--cream);
+  background: rgba(30, 48, 56, .9);
+  border-left: 4px solid var(--orange);
+  border-radius: 9px 9px 0 9px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.topic-photo figcaption a {
+  color: var(--cream);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .topic-intro {
@@ -1377,7 +1427,7 @@ h3 {
 
 .topic-nav__grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -2304,6 +2354,25 @@ h3 {
   .contact__phone { font-size: 34px; }
 
   .topic-hero__inner { padding-block: 52px 70px; }
+
+  .topic-photo {
+    width: min(100% - 28px, var(--shell));
+    margin-top: -30px;
+  }
+
+  .topic-photo__frame {
+    min-height: 250px;
+    border-width: 5px;
+    border-radius: 20px 20px 0 20px;
+  }
+
+  .topic-photo img { height: 280px; }
+
+  .topic-photo figcaption {
+    right: 10px;
+    bottom: 10px;
+    max-width: calc(100% - 20px);
+  }
   .topic-hero h1 { font-size: clamp(46px, 14vw, 68px); }
   .topic-hero__featured { padding: 30px 24px; }
   .topic-intro,

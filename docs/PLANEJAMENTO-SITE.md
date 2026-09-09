@@ -7,14 +7,14 @@ Atualizado em 28/08/2026.
 ### Frontend sob responsabilidade deste projeto
 
 1. **Home one-page** — primeira entrega para aprovação da linguagem visual e do conteúdo.
-2. **Quatro páginas de propostas** — Segurança, Saúde, Mulheres e Idosos. **Construídas.**
+2. **Seis páginas temáticas** — Segurança, Saúde, Mulheres, Idosos, Cristãos e São Bernardo. **Construídas.**
 3. **Biografia** — trajetória completa e realizações verificadas.
 4. **Plataforma** — resumo navegável e acesso ao PDF aprovado.
 5. **Política de privacidade** — texto legal ajustado às ferramentas realmente utilizadas.
 6. **Descadastrar** — interface conectada ao endpoint fornecido pelo responsável técnico.
 7. **Onde votar** — orientação e redirecionamento ao serviço eleitoral oficial.
 
-Isso corresponde à landing page e às nove subpáginas previstas no briefing.
+Isso corresponde à landing page e a onze subpáginas, considerando as duas páginas temáticas acrescentadas ao briefing original.
 
 O formulário de apoio/captação em duas etapas já faz parte da home. A solução provisória aprovada envia os dados a uma planilha do Google Sheets por meio de um Web App do Apps Script. O site não será um CRM.
 
@@ -43,7 +43,7 @@ O frontend poderá consumir as integrações futuras quando forem entregues endp
 ### Fase 2 — páginas restantes
 
 - reaproveitamento do sistema visual aprovado;
-- páginas de Segurança, Saúde, Mulheres e Idosos construídas;
+- páginas de Segurança, Saúde, Mulheres, Idosos, Cristãos e São Bernardo construídas;
 - construção das demais rotas do briefing;
 - revisão de conteúdo e conformidade de cada página.
 

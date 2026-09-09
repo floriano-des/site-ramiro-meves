@@ -17,6 +17,7 @@ Os arquivos brutos e editáveis permanecem em `materiais/originais/` e não entr
 - foto principal em WebP nos tamanhos 800 × 1200 e 1200 × 1800.
 - recorte transparente oficial do candidato em WebP, nos tamanhos 800 e 1200;
 - prévia social do site em 1200 × 630;
+- imagens editoriais das seis páginas temáticas, com origem e licença registradas em `docs/CREDITOS-IMAGENS.md`;
 - fontes locais Archivo e Poppins, acompanhadas das licenças OFL;
 - ícones de navegação e redes sociais usados pela one-page.
 

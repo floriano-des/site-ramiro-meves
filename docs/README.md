@@ -8,3 +8,4 @@
 - [`CHECKLIST.md`](CHECKLIST.md): próximos passos e pendências.
 - [`PENDENCIAS-CAIO.md`](PENDENCIAS-CAIO.md): integrações técnicas fora da primeira entrega.
 - [`PLANEJAMENTO-SITE.md`](PLANEJAMENTO-SITE.md): tudo que será construído até o fim e a divisão por fases.
+- [`CREDITOS-IMAGENS.md`](CREDITOS-IMAGENS.md): origem, autoria e licença das imagens usadas nas páginas temáticas.
