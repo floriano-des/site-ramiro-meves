@@ -51,7 +51,7 @@
   --blue: #0788AF;
   --slate: #1E3038;
   --cream: #FFFDF1;
-  --white: #FFFDF1;
+  --white: #FFFFFF;
   --shell: 1240px;
   --header-height: 76px;
   --shadow-hard: 8px 8px 0 rgba(30, 48, 56, .12);
@@ -1393,6 +1393,7 @@ h3 {
 .topic-method__steps article {
   padding: 24px 26px;
   background: var(--white);
+  border: 1px solid rgba(30, 48, 56, .12);
   border-left: 6px solid var(--orange);
   border-radius: 14px 14px 0 14px;
 }
