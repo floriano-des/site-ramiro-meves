@@ -50,7 +50,18 @@
       <nav class="site-nav" id="menu" aria-label="Navegação principal">
         <a href="../../#sobre">Quem é</a>
         <a href="../../#trajetoria">História</a>
-        <a href="../../#propostas" aria-current="page">Propostas</a>
+        <details class="site-nav__dropdown site-nav__dropdown--current">
+          <summary>Propostas</summary>
+          <div class="site-nav__submenu">
+            <a href="../../#propostas">Visão geral</a>
+            <a href="../seguranca/" aria-current="page">Segurança</a>
+            <a href="../saude/">Saúde</a>
+            <a href="../mulheres/">Mulheres</a>
+            <a href="../idosos/">Idosos</a>
+            <a href="../cristaos/">Cristãos</a>
+            <a href="../sao-bernardo/">São Bernardo</a>
+          </div>
+        </details>
         <a href="../../#manifesto">Manifesto</a>
         <a class="site-nav__cta" href="../../#cadastro">Cadastre-se</a>
       </nav>
@@ -213,8 +224,22 @@
 
   <footer class="site-footer">
     <div class="section-shell site-footer__top">
-      <img src="../../assets/icons/logo-horizontal-01.svg" alt="Ramiro Meves 27777" width="1350" height="540" loading="lazy">
-      <div><p>Ramiro Meves · Deputado Estadual · São Paulo</p><p>Democracia Cristã — DC · nº 27777</p><p>CNPJ 68.610.259/0001-98</p></div>
+      <div class="site-footer__brand">
+        <a href="../../" aria-label="Voltar à página inicial"><img src="../../assets/icons/logo-horizontal-01.svg" alt="Ramiro Meves 27777" width="1350" height="540" loading="lazy"></a>
+        <p>Ramiro Meves · Deputado Estadual · São Paulo</p>
+        <p>Democracia Cristã — DC · nº 27777</p>
+        <p>CNPJ 68.610.259/0001-98</p>
+      </div>
+      <nav class="site-footer__links" aria-label="Navegação do rodapé">
+        <div>
+          <p class="site-footer__label">Navegue</p>
+          <div class="site-footer__link-list"><a href="../../">Início</a><a href="../../#sobre">Quem é</a><a href="../../#trajetoria">História</a><a href="../../#manifesto">Manifesto</a><a href="../../#contato">Contato</a></div>
+        </div>
+        <div>
+          <p class="site-footer__label">Propostas</p>
+          <div class="site-footer__proposal-list"><a href="../seguranca/" aria-current="page">Segurança</a><a href="../saude/">Saúde</a><a href="../mulheres/">Mulheres</a><a href="../idosos/">Idosos</a><a href="../cristaos/">Cristãos</a><a href="../sao-bernardo/">São Bernardo</a></div>
+        </div>
+      </nav>
     </div>
     <div class="section-shell site-footer__bottom">
       <p>© <span data-year>2026</span> Ramiro Meves. Todos os direitos reservados.</p>
