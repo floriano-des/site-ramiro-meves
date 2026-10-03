@@ -147,6 +147,7 @@ h3 {
   font-family: 'Archivo', sans-serif;
   font-weight: 900;
   letter-spacing: -.045em;
+  overflow-wrap: anywhere;
 }
 
 h2 {
@@ -1195,6 +1196,8 @@ h3 {
   align-items: center;
   padding-block: 82px;
 }
+
+.topic-hero__inner > * { min-width: 0; }
 
 .breadcrumbs {
   display: flex;
@@ -2447,7 +2450,7 @@ h3 {
   .pair-hero__inner { width: min(100% - 32px, var(--shell)); }
 
   .section { padding-block: 76px; }
-  h2 { font-size: clamp(38px, 11vw, 56px); }
+  h2 { font-size: clamp(34px, 10vw, 52px); }
   .site-brand img { width: 200px; }
 
   .campaign-hero__inner {
@@ -2547,7 +2550,7 @@ h3 {
     bottom: 10px;
     max-width: calc(100% - 20px);
   }
-  .topic-hero h1 { font-size: clamp(46px, 14vw, 68px); }
+  .topic-hero h1 { font-size: clamp(34px, 10.5vw, 52px); }
   .topic-hero__featured { padding: 30px 24px; }
   .topic-intro,
   .topic-proposals,
